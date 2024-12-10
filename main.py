@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
 
-AUTH = 'brd-customer-hl_c2fce8f9-zone-ai_scraping:zepu5bpbukc0'
+AUTH = 'replace-with your username and password'
 SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
 
 # Function to scrape HTML from a website
